@@ -1,0 +1,21 @@
+.hero-container{
+    position:relative;
+    z-index: index 1;
+}
+.hero-text{
+    position: relative;
+    z-index: 3;
+}
+
+.hero-drop{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-position: center, center;
+    opacity: 1;
+    z-index: index 2;
+    background-attachment: fixed;
+}
